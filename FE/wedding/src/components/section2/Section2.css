@@ -1,0 +1,143 @@
+#section2 {
+    width: 100%;
+    height: 100%;
+    padding: 50px 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dancing Script', cursive;
+}
+
+.couple-half .groom img,
+.couple-half .bride img {
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.title-heading {
+    margin: 25px auto;
+}
+
+.couple-half h3 {
+    font-family: 'Dancing Script', cursive;
+    color: #F14E95;
+    font-size: 45px;
+}
+
+.wishes>h2 {
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 16px;
+    color: #F14E95;
+    margin-top: 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.wishes {
+    position: relative;
+}
+
+.wishes::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    bottom: 8px;
+    left: calc(50% - 80px);
+    background: #121f38;
+}
+
+.wishes::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    bottom: 8px;
+    right: calc(50% - 80px);
+    background: #121f38;
+}
+
+.couple-wrap {
+    width: 100%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.couple-half {
+    width: 50%;
+    float: left;
+}
+
+.couple-half .desc-groom {
+    padding-right: 180px;
+    text-align: right;
+}
+
+.couple-half .groom,
+.couple-half .bride {
+    float: left;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.couple-half .desc-bride {
+    padding-left: 180px;
+    text-align: left;
+}
+
+.couple-half .groom {
+    float: right !important;
+    margin-right: 5px;
+}
+
+.heart {
+    position: absolute;
+    top: 4em;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    animation: pulse 1s ease infinite;
+}
+
+.heart i {
+    font-size: 20px;
+    background: #fff;
+    padding: 20px;
+    color: #F14E95;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.page-wrapper p {
+    font-size: 18px;
+    font-size: 1.125rem;
+    color: #838383;
+    line-height: 1.6em;
+    margin: 0 0 1.5em;
+}
+
+.couple-half .desc-bride {
+    padding-left: 180px;
+    text-align: left;
+}
+
+.desc-bride p,
+.desc-groom p {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 1.7;
+    color: #828282;
+}
+

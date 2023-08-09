@@ -1,14 +1,16 @@
 import React from "react";
+import Section1 from "./components/section1/Section1";
+
 import "../../wedding/src/views/css/App.css";
+import Section2 from "./components/section2/Section2";
+
 
 function App() {
   return (
-    <form action="/upload" method="post" enctype="multipart/form-data">
-      <input type="file" name='recfile' placeholder="Select file"/>
-      <br/>
-      <button>Upload</button>
-    </form>
-
+   <div className="App">
+    <Section1/>
+    <Section2/>
+   </div>
   );
 }
 
