@@ -1,11 +1,14 @@
 import React from "react";
-import "../../wedding/src/css/App.css";
+import "../../wedding/src/views/css/App.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Lamdaik</h1>
-    </div>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name='recfile' placeholder="Select file"/>
+      <br/>
+      <button>Upload</button>
+    </form>
+
   );
 }
 
