@@ -36,6 +36,22 @@
   margin: auto;
 }
 
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 8px;
+  text-transform: uppercase;
+}
+
+.icon img {
+  width: 64px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,0 +1,132 @@
+#section5 {
+    padding: 5em 0;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url(https://res.cloudinary.com/dxy2muzyb/image/upload/v1689222570/wedding/section3/bqoks07kpbfjltsokin0.jpg);
+    
+}
+
+.event-mb {
+    display: flex;
+    margin-top: 20px;
+}
+
+.event .overlay,
+#section5 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#section5 .event-wrap span,
+#section5 .event-wrap p {
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.8;
+}
+
+#section5 .event-wrap p a {
+    transition: .3s all ease;
+    color: #fff;
+}
+
+.locationMain {
+    margin-bottom: 57px !important;
+}
+
+#section5 .fh5co-heading h2 {
+    color: #fff;
+}
+
+.popup-gmaps {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 1px solid #fff;
+    padding: 8px 10px;
+    color: #fff;
+}
+
+a.popup-gmaps:hover {
+    text-decoration: none;
+    color: #fff;
+    outline: none !important;
+}
+
+.event {
+    background-size: cover !important;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.fh5co-heading span {
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.event-wrap {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    width: 100%;
+    float: left;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.event-wrap .icon {
+    margin-bottom: 15px;
+    color: #F14E95;
+}
+
+.event-wrap .location {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 0 !important;
+}
+
+.event-wrap .female {
+    margin-bottom: 10px;
+    width: 186.5px;
+}
+
+.event-wrap h3 {
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    display: block;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.event-wrap .event-col {
+    width: 50%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.event-wrap i {
+    color: white;
+    font-size: 20px;
+}
+
+.col-md-offset-1 {
+    margin-left: 8.33333%;
+}

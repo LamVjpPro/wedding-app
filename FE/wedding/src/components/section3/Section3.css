@@ -1,0 +1,88 @@
+.section-sub-header {
+    background-image: url(https://res.cloudinary.com/dxy2muzyb/image/upload/v1689156725/wedding/section-sub-header/as48iymrjrey02idj93n.jpg);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 70px 0px 90px 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.page-wrapper .btn a,
+.page-wrapper .btn button {
+    display: inline-block;
+    background: #fff;
+    color: #F14E95;
+    padding: 10px 38px;
+    font-size: 18px;
+    transition: all .3s;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+}
+
+.elementor-background-overlay {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #000000CF 0%, #af76a0e3 100%);
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.section-sub-header .elementor-background-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.elementor-widget-wrap {
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap !important;
+    align-content: flex-start !important;
+}
+
+.elementor-element {
+    width: 100%;
+}
+
+.welcome-content {
+    text-align: center;
+}
+
+.welcome-area {
+    position: relative;
+    background-attachment: fixed;
+}
+
+.welcome-content h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #F14E95;
+    font-family: 'Dancing Script', cursive;
+}
+
+.welcome-content p {
+    font-size: 22px;
+    padding: 20px 30px 30px;
+    color: #fff;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Dancing Script', cursive;
+}
+
+.btn a,
+.btn button {
+    display: inline-block;
+    background: #fff;
+    color: #F14E95;
+    padding: 10px 38px;
+    font-size: 18px;
+    transition: all .3s;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+}
