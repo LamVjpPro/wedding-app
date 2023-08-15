@@ -6,6 +6,8 @@ import Seciton4 from "./components/section4/Seciton4";
 import Section5 from "./components/section5/Section5";
 import Section7 from "./components/section7/Section7";
 import SectionSub from "./components/section-sub/SectionSub";
+import Section8 from "./components/section8/Section8";
+import PersonList from "./components/PersonList/PersonList";
 import Footer from "./components/footer/Footer";
 
 
@@ -21,6 +23,8 @@ function App() {
     <Section5/>
     <Section7/>
     <SectionSub/>
+    <Section8/>
+    {/* <PersonList/> */}
     <Footer/>
    </div>
   );

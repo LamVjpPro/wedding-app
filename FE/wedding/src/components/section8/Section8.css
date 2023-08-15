@@ -1,0 +1,60 @@
+#section8 {
+    background-size: cover;
+    background-image: url(https://res.cloudinary.com/dxy2muzyb/image/upload/v1689223142/wedding/section7/tut6r5muc3bir0qys49l.jpg);
+    background-position: center;
+}
+
+.footer-area:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .5;
+    z-index: -1;
+}
+
+.content-sub:before {
+    position: absolute;
+    content: "";
+    left: -8px;
+    top: -6px;
+    width: 103%;
+    height: 105%;
+    border: 1px solid rgba(255, 255, 255, 0.4)
+}
+
+.content-sub h2 {
+    font-size: 80px;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+}
+
+.content-sub span {
+    font-size: 25px;
+    color: #f6f6f6;
+}
+
+.footer-area {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-content {
+    margin: auto;
+    text-align: center;
+}
+
+.content-sub {
+    padding: 50px 80px;
+    background: #f14e9573;
+    display: inline-block;
+    z-index: 99;
+    position: relative;
+}

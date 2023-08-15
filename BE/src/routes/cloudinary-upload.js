@@ -6,7 +6,7 @@ const uploadController = require('../controllers/upload.controller')
 const storage = require('../lib/multer')
 
 router.post('/', fileUploader.single('image'), (req, res) => {
-    res.status(201).json('succses')
+    res.status(201).json('sucsses')
 })
 
 router.post('/uploadVideo', storage.single('file'), uploadController.uploadVideo);
